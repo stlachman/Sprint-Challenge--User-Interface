@@ -39,40 +39,32 @@
         </div>
       </section>
      
-      <section class="form-section mt-20">
+      <section class="form-section mt-20 mb-50">
+        <div class="form-container">
+          <form class="main-form" action="/contact/thank-you" method="POST">
+            <div class="form-row">
+              <label for="name">Full Name: </label>
+              <input type="text" name="name">
+            </div>
 
-        <form class="main-form" action="/thank-you" method="POST">
-          <div>
-            <label for="name">Full Name: </label>
-            <input type="text" name="name">
-          </div>
+            <div class="form-row">
+              <label for="email">Email: </label>
+              <input type="email" name="email">
+            </div>
 
-          <div>
-            <label for="email">Email: </label>
-            <input type="email" name="email">
-          </div>
+            <div class="form-row">
+              <label for="message">Message:</label>
+              <textarea name="message" id="message"></textarea>
+            </div>
 
-          <div>
-            <label for="message">Message:</label>
-            <textarea name="message" id="message"></textarea>
-          </div>
-
-          <div class="button">
-            <button type="submit">Send Your Message</button>
-          </div>
-        </form>
-
-      </section>
-
-
-      <section class="about-bottom">
-        <div class="text-content">
-          <h2>Let's Work Together</h2>
-          <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+            <div class="submit-row">
+              <button class="btn btn-white" type="submit">Send Your Message</button>
+            </div>
+          </form>
         </div>
 
       </section>
-     
+
       <footer>
         <nav>
           <a href="index.html">Home</a>
