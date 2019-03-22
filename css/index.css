@@ -66,6 +66,23 @@ p {
     line-height: 1.4;
 }
 
+header {
+  margin-top: 40px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 35px;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  margin-right: 70px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -75,6 +92,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 20px 0;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -110,6 +128,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1 {
+  background: teal;
+}
+
+.middle-content .boxes .box2 {
+  background: gold;
+}
+
+.middle-content .boxes .box3 {
+  background: cadetblue
+}
+
+.middle-content .boxes .box4 {
+  background: coral;
+}
+
+.middle-content .boxes .box5 {
+  background: crimson;
+}
+
+.middle-content .boxes .box6 {
+  background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+  background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+  background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+  background: indigo;
+}
+
+.middle-content .boxes .box10 {
+  background: dodgerblue;
 }
 
 .bottom-content {
