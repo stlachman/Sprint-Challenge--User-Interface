@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML provides meaning and context to the code that we write. A Footer or header element is meaningful to anyone who understands what the word footer or header means in the context of a document, whereas a span tag doesn't tell the user anything about the content contained with that tag or its relationship to the rest of the page.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+An element using ```display: block``` will take up as much space as its parent element permits while a ```display: inline;``` element will only take up as much space as its content. Height and width can be used to style a block level element while height and width have no effect on an inline level element.
 
 3. What are the 4 areas of the box model?
 
+The four areas of the box model are the margin area, border area, padding area, and content area. 
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+```align-items: center``` works on the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to a team of developers because it allows members of the team to work on various parts of the application without overwriting the work of another developer. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
