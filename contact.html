@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Sprint Challenge - Contact</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <div class="container about-page">
+
+      <header>
+        <div class="header-container">
+          <a href="/index.html">
+            <img src="img/lambda-black.png" alt="Lambda Logo">
+          </a>
+
+          <nav>
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About</a>
+            <a href="#">Products</a>
+            <a href="#">Blog</a>
+            <a href="/contact.html">Contact</a>
+          </nav>
+        </div>
+
+        <img src="img/jumbo-about.png" class="about-header-img" alt="Road with Cars">
+      </header>
+
+      <section class="contact-intro mt-20">
+        <div class="text-content">
+          <h2>Contact</h2>
+          <p>We'd love to hear from you about any questions or concerns that you might have about our products. Reach out to us and we will get back you in 12 hour or less!</p>
+        </div>
+      </section>
+     
+      <section class="form-section mt-20 mb-50">
+        <div class="form-container">
+          <form class="main-form" action="/contact/thank-you" method="POST">
+            <div class="form-row">
+              <label for="name">Full Name: </label>
+              <input type="text" name="name">
+            </div>
+
+            <div class="form-row">
+              <label for="email">Email: </label>
+              <input type="email" name="email">
+            </div>
+
+            <div class="form-row">
+              <label for="message">Message:</label>
+              <textarea name="message" id="message"></textarea>
+            </div>
+
+            <div class="submit-row">
+              <button class="btn btn-white" type="submit">Send Your Message</button>
+            </div>
+          </form>
+        </div>
+
+      </section>
+
+      <footer>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="#">About</a>
+          <a href="#">Products</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </nav>
+      </footer>
+    </div><!-- container -->        
+</body>
+</html>
